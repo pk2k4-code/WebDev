@@ -1,0 +1,23 @@
+HTML text
+
+1. its full form is hypertext markup language
+
+2. At the very beginning of the code <!DOCTYPE html> is written, then the code starts with <html> , and closes with </html>, inside that we have HEAD and BODY, head which starts with <head> and ends with </head> and the head contains TITLE which also starts with <title> and ends with </title>, and then body starts with <body> and ends with </body>, and the body contains HEADING and PARAGRAPH, heading starts with <h1> and ends with </h1>, paragraph starts with <p> and ends with </p>
+
+3. In the editor when we write just an exclamation ! and press enter then we get a boiler plate code which looks like:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+-> here the extra thing is lang="en" in <html> at start, which specifies that the language is english, utf-8 is a set of characters which encodes the characters written, the whole viewport line is for setting the width of webpage according to device its used on, like if on mobile it will open according to mobile not desktop, if it was not there then it would have opened very small on the mobile thinking of it as a desktop and trying to fit everything in the screen it would have zoomed out everything, rest all are same.
+
+4. 

@@ -1,0 +1,11 @@
+WebDev basic theory:
+
+1. How does the internet work?
+=> when you want to connect to a website, that website has an ip address, which is kind of their address, but you can't remember there IPs to access them, now when you search for that site in your laptop, then your laptop sends a request of that site to your ISP which then reaches out to DNS(Domain name system) which is like a phonebook of these ip addresses, so it provides the isp with the ip address of that specific  site you searched for, and then the isp redirects you to that site
+
+2, Your computer has its own IP address and thus you can host your own website using your own computer as well but you will have to keep your computer on all the time
+
+3. Server is just a software thar serves.
+
+4. Working of a web software:
+=> The frontend part sends a request to the API(application programming interface) which gets a response from the backend, its useful as if the request from frontend comes in form of javascript but the backend is in java, then it could cause problems, so the api uses a common format called json to communicate between frontend and backend
