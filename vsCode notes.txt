@@ -1,0 +1,46 @@
+VS code notes: 
+
+OPEN/VIEW:
+1. To open command pallete(the search bar at the top), use -> ctrl+shift+P
+2. To access settings, use -> ctrl+,
+3. To toggle sidebar, use -> ctrl+B
+4. To open new window, use -> shift+ctrl+N
+5. To close a window, use -> ctrl+W
+6. To toggle terminal, use -> ctrl+`        (` is the tilde key)
+7. To create new terminal, use -> ctrl+shift+`
+
+WORKING WITH FILES:
+8. For sidebar focus, use -> ctrl+shift+E
+9. To open folder from sidebar, use -> ctrl+down
+10. To change file tabs, use -> ctrl+tab OR ctrl+page up
+11. For quick file open, use -> ctrl+P
+12. To open file from file explorer, use -> ctrl+O
+13. For new file, use -> ctrl+N
+14. For save, use -> ctrl+S
+15. For save as, use -> ctrl+Shift+S
+16. To delete file, use -> ctrl+delete
+17. To reopen file, use -> ctrl+shift+T
+18. To split editor, use -> ctrl+\
+19. Zoom in -> ctrl++   zooom out -> ctrl+-
+
+CODE EDITING:
+20. Go to start of line -> ctrl+right
+21. Go to end of line -> ctrl+left
+22. Move by word -> alt+right AND alt+left
+23. Go to start of file -> ctrl+Home
+24. Go to end of file -> ctrl+End
+25. Move line up -> alt+up
+26. Move line down -> alt+down
+27. Copy line up -> shift+alt+up
+28. Copy line down -> shift+alt+down
+29. remove line -> shift+ctrl+k
+30. Insert line below -> ctrl+Enter
+31. Insert line above -> shift+ctrl+Enter
+32. Jump to matching bracket -> Shift+ctrl+\
+33. Add line comment -> ctrl+/
+34. Add block comment -> shift+alt+A
+35. To highlight code -> shift+any direction
+36. To select next match -> ctrl+D
+37. To de select match -> ctrl+U
+38. To add cursor -> alt+click
+39. Go to entity(functions, variables etc.) -> ctrl+shift+O
