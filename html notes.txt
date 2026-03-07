@@ -20,4 +20,20 @@ HTML text
 
 -> here the extra thing is lang="en" in <html> at start, which specifies that the language is english, utf-8 is a set of characters which encodes the characters written, the whole viewport line is for setting the width of webpage according to device its used on, like if on mobile it will open according to mobile not desktop, if it was not there then it would have opened very small on the mobile thinking of it as a desktop and trying to fit everything in the screen it would have zoomed out everything, rest all are same.
 
-4. 
+4. In headings, there are 6 levels, like h1, h2---h6; they are in order of significance, h1 is most significance and h6 is least significance.
+
+5. Emmet is a plugin which enhances productivity, emmet abbreviations are used to produce code rapidly, one of the emmets is lorem, its just a word which is used to fill up our code when we want to check how will it look, so if we want to fill 40 random words ina paragraph then we will write -> p>lorem40
+There are more emmets as well, which help us to improve speed
+
+6. To add image you write img then press enter then it will expand to -> <img src="" alt=""> ; here inside "" in src give the address of your image like if its directly in the directory write ./name otherwise write ./folder/name
+
+7. To add a link write a and then press enter, it will expand to -> <a href=""></a> ; now here in "" in href write the link, and after > and before </a> write something so that it acts as the link's opener on the webpage otherwise nothing will be visible on the webpage even if you write the link in href
+
+8. <h1>, <p> all these kinds are called tags <h1> is starting tag, </h1> is ending tag and we can give certain attributes to these tags, like if we write <h1 title="start">My webpage</h1> ; here title="start" is the attribute of the h1 tag, if we go on the webpage and hover the cursor over this heading we will see start, which is called a tooltip
+
+9. To adjust width of an image we can give it an attribute -> <img src="" width="300px" alt="">
+
+10. Now if you want to like create a link kind of thing which on clicking directly opens up compose mail to the mail you wrote in code, so for that you can write a:mail and then press enter and it will expand to -> 
+<a href="mailto:priyanshukumar.earth@gmail.com">Mail Priyanshu</a>
+Now same can be done where you click the link and dialer opens up on your phone by writing a:tel and press enter and it will expand to -> <a href="tel:+919608018365">Call Priyanshu</a>
+Same can be done for accessing any part of the webpage if you write a press enter and then in hred write the address of the page you want to go to like -> <a href="./index.html">Go to index</a>
