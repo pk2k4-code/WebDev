@@ -1,0 +1,38 @@
+.horizontal-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1a1a1a;
+}
+.horizontal-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    padding-bottom: 5px;
+}
+.horizontal-nav a::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: chartreuse;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:transform 0.3s ease-in-out;
+}
+.horizontal-nav a:hover::after{
+    transform: scaleX(1);
+}
+.horizontal-nav a:hover{
+    color: chartreuse;
+    transition: color 0.3s ease-in-out;
+}
