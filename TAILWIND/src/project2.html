@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll</title>
+    <style>
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+  }
+</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+    <header class="flex justify-between items-center bg-zinc-800 w-full py-3 px-6">
+        <nav class="flex items-center ">
+            <div class="flex items-center gap-1 mr-7">
+                <img src="https://cdn.simpleicons.org/crunchyroll/F47521" alt="Crunchyroll" class="w-8 h-6">
+                <h1 class="font-bold text-[1.35rem] text-[#F47521] hover:text-white">Crunchyroll</h1>
+            </div>
+            <ul class="flex gap-2">
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">New</li>
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">Popular</li>
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">Simulcast</li>
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">Categories <i class="fa-solid fa-caret-down text-[0.85rem]"></i></li>
+            </ul>
+            <div class="text-[1.55rem] text-gray-300 px-2">|</div>
+            <ul class="flex gap-2">    
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">Games</li>
+                <li class="text-[1.05rem] px-3 text-gray-300 cursor-pointer">News <i class="fa-solid fa-caret-down text-[0.85rem]"></i></li>
+            </ul>
+        </nav>
+        <div class="flex items-center gap-6">
+            <div class="flex items-center gap-2 cursor-pointer">
+                <svg viewBox="0 0 24 24" class="w-4 h-4 fill-current text-[#F4B71A]" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="4,20 20,20 23,7 16,12 12,3 8,12 1,7" />
+                </svg>
+                <div class="flex flex-col leading-tight">
+                    <h3 class="text-[#F4B71A] text-xs font-semibold">TRY FREE</h3>
+                    <h3 class="text-gray-300 text-[0.7rem]">PREMIUM</h3>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-magnifying-glass text-xl text-gray-300 cursor-pointer"></i>
+
+            <i class="fa-regular fa-bookmark text-xl text-gray-300 cursor-pointer"></i>
+
+            <div class="relative cursor-pointer">
+                <div class="w-8 h-8 rounded-full bg-black flex items-center justify-center overflow-hidden">
+                    <img src="https://cdn.simpleicons.org/crunchyroll/F47521" alt="Profile" class="w-full h-full object-cover p-1">
+                </div>
+
+                <div class="absolute bg-red-700 rounded-full w-4 h-4 -top-1 left-4 border-2 border-zinc-800"></div>
+            </div>
+
+            <i class="fa-solid fa-caret-down -ml-4 text-gray-300 text-[0.85rem]"></i>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="relative w-full aspect-[16/9] overflow-hidden">
+            <img src="../images/sung-jinwoo-dope-3840x2160-20241.jpg" class="absolute inset-0 h-full w-full object-cover" alt="Kaiju No. 8">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent w-3/4"></div>
+            <div class="absolute top-7 left-8 flex flex-col gap-5">
+                <img src="../images/GDKHZEJ0K-title_logo-en-us.png" alt="title">
+                <div class="flex items-center gap-3 ml-6">
+                    <h2 class="px-1 bg-slate-500 rounded-sm text-[1rem] text-white -skew-x-12">U/A 16+</h2>
+                    <h3 class="flex font-extralight items-center text-gray-300 text-[1rem]"><i class="fa-solid fa-diamond text-gray-300 text-[0.4rem] mr-1"></i> Sub | Dub <i class="ml-1 mr-1 fa-solid fa-diamond text-gray-300 text-[0.4rem]"></i> Action, Adventure, Fantasy</h3>
+                </div>
+                <h3 class="text-gray-300 text-[1rem] ml-6">They say whatever doesn't kill you makes you stronger, but that's not the case <br> for the world's weakest hunter Sung Jinwoo. After being brutally slaughtered by <br> monsters in a  in a high-ranking dungeon, Jinwoo came back with the System <br> a program only he could see, that’s leveling him up in every way.</h3>
+                <div class="flex items-center gap-6">
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    START WATCHING E1
+                    
+                    </a>
+                    <div class="px-2 py-2 border-2 border-[#F47521] bg-transparent cursor-pointer">
+                        <i class="fa-regular fa-bookmark text-xl text-[#F47521]"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="relative z-20 -mt-32 ml-14">
+            <h3 class="text-white font-bold text-2xl mb-4">Top Picks For You</h3>
+            
+            <div class="flex items-center gap-5 mb-10">
+                <div>
+                    <img class="w-60 aspect-[3/4] object-cover object-right outline-none border-2 border-white cursor-pointer hover:scale-105" src="../images/1368056.jpeg" alt="top-pick">
+                    <h3 class="text-white font-bold text-sm mt-1 mb-2">Kaiju No. 8</h3>
+                    <span class="text-gray-300 font-thin">Sub | Dub</span>
+                </div>
+                <div>
+                    <img class="w-60 aspect-[3/4] object-cover object-center outline-none border-2 border-white cursor-pointer hover:scale-105" src="../images/satoru-gojo-jujutsu-3840x2160-25362.jpg" alt="top-pick">
+                    <h3 class="text-white font-bold text-sm mt-1 mb-2">Jujutsu Kaisen</h3>
+                    <span class="text-gray-300 font-thin">Sub | Dub</span>
+                </div>
+                <div>
+                    <img class="w-60 aspect-[3/4] object-cover object-center outline-none border-2 border-white cursor-pointer hover:scale-105" src="../images/tanjiro-kamado-red-3840x2160-22577.png" alt="top-pick">
+                    <h3 class="text-white font-bold text-sm mt-1 mb-2">Demon Slayer</h3>
+                    <span class="text-gray-300 font-thin">Sub | Dub</span>
+                </div>       
+            </div>
+        </section>
+
+        <section>
+            <div class="flex justify-between items-end ml-14 mr-14 mb-10">
+                <h3 class="block text-4xl text-white font-bold">Continue Watching...</h3>
+                <h3 class="block text-gray-300 cursor-pointer">VIEW HISTORY<i class="fa-solid fa-angle-right ml-1"></i></h3>
+            </div>
+
+            
+
+            <div class="ml-14 mr-14 flex gap-8 overflow-x-auto snap-x snap-mandatory no-scrollbar mb-16">
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/wallpaperflare.com_wallpaper.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">DEATH NOTE</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/eren-yeager-levi-3840x2160-10343.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">ATTACK ON TITAN</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/violet-evergarden-3840x2160-19954.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">VOILET EVERGARDEN</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/team-z-blue-lock-4585x2160-20028.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">BLUE LOCK</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/haikyuu-fly-high-3840x2160-21476.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">HAIKYUU</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2 flex-shrink-0 snap-start">
+                    <img src="../images/roronoa-zoro-green-3840x2160-18358.jpg" class="outline-none hover:border-2 hover:scale-90 border-[#F47521] max-w-sm w-full aspect-video" alt="one-piece">
+                    <h3 class="text-white text-center">ONE PIECE</h3>
+                    <div>
+                    <a href="#" class="bg-[#F47521] ml-6 px-2 py-3 max-w-[20rem] w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    Continue Watching </a>   
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="ml-14 mr-14">
+            <div>
+                <div class="mb-8">
+                    <h3 class="block text-4xl text-white font-bold">MOST POPULAR</h3>
+                </div>
+
+                <div class="flex no-scrollbar overflow-x-auto snap-x snap-mandatory gap-6">
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/steins.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="steins-gate">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Steins Gate</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/blue-lock.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="blue-lock">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Blue Lock</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                       
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/koji.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Classroom of the Elite">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-xl font-semibold">Classroom of the Elite</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/chainsaw.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Chainsaw Man">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Chainsaw Man</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/op.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="One Piece">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">One Piece</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/ds.webp" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Demon Slayer">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Demon Slayer</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/codegeass.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Code Geass">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Code Geass</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/april.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Your Lie In April">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Your Lie In April</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/tokyo.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Tokyo Revengers">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Tokyo Revengers</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/stone.webp" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Dr. Stone">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Dr. Stone</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/solo.jpg" class="max-w-80 w-full aspect-[9/16] object-cover object-top hover:scale-90" alt="Solo Leveling">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Solo Leveling</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <div class=" flex flex-col gap-1 flex-shrink-0 snap-start">
+                        <img src="../images/saga.jpg" class="max-w-80 w-full aspect-[9/16] object-cover hover:scale-90" alt="Vinland Saga">
+                        <div class="flex items-center justify-between">
+
+                            <div class="flex flex-col gap-1">
+                            <h3 class="text-white text-2xl font-semibold">Vinland Saga</h3>
+                            <span class="text-gray-300 font-thin mt-1">Sub | Dub</span>
+                        </div>
+                        
+                        <div class="block">
+                            <a href="#" class="bg-[#F47521]  px-2 py-3 max-w-[10rem]  w-full hover:bg-[#ff6600] font-semibold flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+                    </svg>
+                    WATCH
+                    
+                    </a>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col justify-center items-center mt-20 mb-20">
+            <div>
+                <img src="../images/cat.png" alt="cat">
+            </div>
+
+            <div>
+                <h3 class="font-bold text-white text-4xl text-center mt-4">Still looking for something to watch? <br> Check out our full library</h3>
+            </div>
+
+            <div class="mt-6">
+                <button class="bg-transparent text-[#F47521] outline-none ring-2 ring-[#F47521] px-7 py-3 mt-4 hover:bg-[#F47521] hover:scale-110 hover:text-white">VIEW ALL</button>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="grid grid-cols-4 gap-10 px-14 py-10 border-b border-gray-300">
+            <div>
+                <div class="flex items-end gap-2">
+                    <img src="https://cdn.simpleicons.org/crunchyroll/F47521" alt="Crunchyroll" class="w-10 h-8">
+                <h2 class="text-white text-4xl">Crunchyroll</h2>
+                </div>
+                
+                <h3 class="text-gray-300 font-thin mt-3">SONY PICTURES | &copy Crunchyroll LLC</h3>
+                <h3 class="text-gray-300 font-thin mt-8">Welcome to Crunchyroll, your ultimate destination for streaming the best in anime entertainment </h3>   
+                <div class="flex">
+                <ul class="flex gap-4 mt-4">
+                <li><a href="#" aria-label="Youtube" class="text-gray-500 transition-all hover:scale-110 block"><i class="fa-brands fa-youtube text-xl"></i></a></li>
+                <li><a href="#" aria-label="Twitter" class="text-gray-500 transition-all hover:scale-110 block"><i class="fa-brands fa-twitter text-xl"></i></a></li>
+                <li><a href="#" aria-label="Facebook" class="text-gray-500 transition-all hover:scale-110 block"><i class="fa-brands fa-facebook text-xl"></i></a></li>
+                <li><a href="#" aria-label="Instagram" class="text-gray-500 transition-all hover:scale-110 block"><i class="fa-brands fa-square-instagram text-xl"></i></a></li>
+                <li><a href="#" aria-label="ok" class="text-gray-500 transition-all hover:scale-110 block"><i class="fa-brands fa-tiktok text-xl"></i></a></li>
+                </ul>
+                </div>
+                <div class="m">
+                    <button class="bg-transparent outline-none px-4 py-2 ring-2 ring-gray-300 text-gray-300 mt-12"><i class="fa-solid fa-globe"></i> English (US) <i class="fa-solid fa-caret-down text-[0.85rem]"></i></button>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-2xl text-white font-semibold mb-5">Explore</h3>
+                <ul class="flex flex-col gap-3">
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Browse Popular</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Browse Simulcasts</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Release Calanders</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">News</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Games</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl text-white font-semibold mb-5">Resources</h3>
+                <ul class="flex flex-col gap-3">
+                    <li class="text-gray-500 cursor-pointer hover:text-white">About</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Get the Apps</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Jobs</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Help center</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Advertising Inquiries</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Press Inquiries</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-2xl text-white font-semibold mb-5">Account</h3>
+                <ul class="flex flex-col gap-3">
+                    <li class="text-[#F47521] cursor-pointer hover:text-white">Start a free trial</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Switch Profile</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Watchlist</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Crunchylists</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">History</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">My Account</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Reedem Gift Card</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-white">Log Out</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex gap-10 text-gray-300 justify-center items-start py-10 bg-gray-600">
+            <h3 class="hover:text-black cursor-pointer">Terms of Service</h3>
+            <h3 class="hover:text-black cursor-pointer">Privacy Policy</h3>
+            <h3 class="hover:text-black cursor-pointer">Cookie Consent Tool</h3>
+            <h3 class="hover:text-black cursor-pointer">Content Feedback</h3>
+            <h3 class="hover:text-black cursor-pointer">Ad Choices</h3>
+            <h3 class="hover:text-black cursor-pointer">Do not Sell or Share my Personal Information</h3>
+            <h3 class="hover:text-black cursor-pointer"></h3>
+        </div>
+    </footer>
+</body>
+</html>
